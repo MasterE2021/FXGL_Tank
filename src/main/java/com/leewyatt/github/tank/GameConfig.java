@@ -14,7 +14,7 @@ public class GameConfig {
 
     private static final PropertyMap map;
 
-    //配置文件里有详细的注释说明
+    // 配置文件里有详细的注释说明
     static {
         map = FXGL.getAssetLoader().loadPropertyMap("properties/game.properties");
     }
